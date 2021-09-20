@@ -1,0 +1,11 @@
+acteur: idActeur, nom, prenom
+joue, 1N acteur, 0N film: role
+:
+
+realise, 1N realisateur, 11 film
+film: idFilm, titre, duree
+:
+
+realisateur: idRealisateur, nom, prenom
+seance, 1N film, 1N salle: dateSeance
+salle: idSalle, nom
